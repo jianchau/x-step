@@ -1,0 +1,725 @@
+body{
+    overflow-x: hidden;
+    min-width: 500px;
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #f4f4f4;
+    
+}
+#top{
+    width:100%;
+    height:30px;
+    background: #fafafa;
+}
+.welcome{
+    font-family: "Microsoft Yahei" Tahoma, Geneva, sans-serif, "宋体";
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    display:inline-block;
+    width:198px;
+    height:30px;
+    padding: 0 15px;
+    line-height: 30px;
+    color: #000;
+    margin-left:90px;
+}
+.top-ul{
+    height:30px;
+    float:right;
+    font-family: "Microsoft Yahei", Tahoma, Geneva, sans-serif, "宋体";
+    margin-right:90px;
+}
+.fore4,.fore5{
+    line-height: 30px;
+    float:left;
+    padding:0 16px;
+}
+.dow_icon,.tub_icon{
+    margin:0 5px;
+}
+#logo{
+    position: relative;
+    z-index: 12;
+    float: left;
+    width: 290px;
+    height: 60px;
+    padding: 20px 0;
+    margin-left: 110px;
+}
+.head{
+    height:100px;
+}
+.logo{
+    display: block;
+    width: 240px;
+    height: 72px;
+    background: url(../img/logo.png) no-repeat center 0;
+    text-indent: -20000px;
+    padding-left: 0;
+}
+#search{
+    position: relative;
+    z-index: 11;
+    float: left;
+    width: 462px;
+    margin-top: 25px;
+}
+.form{
+    width: 462px;
+    height: 36px;
+}
+.text{
+    float: left;
+    width: 370px;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    padding: 4px;
+    margin-bottom: 4px;
+    border-width: 2px 0 2px 2px;
+    border-color: #B61D1D;
+    border-style: solid;
+    outline: 0;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    padding-left: 3px;
+    background-position: 0 -245px;
+    background-repeat: repeat-x;
+    background: url(../img/global_bg.png) -9999px 0 no-repeat;
+}
+.button{
+    width: 82px;
+    height: 36px;
+    background: #B61D1D;
+    border: none;
+    line-height: 1;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+}
+#settleup{
+    position: relative;
+    left:-100px;
+    float: right;
+    z-index: 11;
+    height: 36px;
+    margin-top: 25px;
+    margin-bottom:8px;
+}
+.cw-icon{
+    width: 75px;
+    height: 34px;
+    border: 1px solid #DFDFDF;
+    padding: 0 28px 0 36px;
+    background: #F9F9F9;
+    text-align: center;
+    line-height: 34px;
+    position: relative;
+    cursor: default;
+    zoom: 1;
+    font-size: 12px;
+    color: #727272;
+}
+a{
+    color: #666;
+    text-decoration: none;
+    padding:0;
+}
+#hotwords{
+    float: left;
+    width: 462px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #727272;
+}
+#nav{
+    height:39px;
+    background: #000;
+    font-size: 12px;
+    color: #727272;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #727272;
+}
+#menu .wrapper{
+    height: 39px;
+    position: relative;
+    background: #000;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color: #727272;
+}
+#menu .navigation{
+    height: 39px;
+    width: 992px;
+    padding: 0;
+    position: absolute;
+    left: 213px;
+}
+#menu .navigation li{
+    float: left;
+    height: 39px;
+    line-height: 38px;
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+}
+#menu .navigation li .item{
+    display: inline-block;
+    height: 39px;
+    width: 110px;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+}
+#menu .menu{
+    position:absolute;
+    width: 213px;
+    height: 39px;
+    background-color: #c40000;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+}
+.menu h3{
+    z-index:10000;
+    height: 39px;
+    font-weight: bold;
+    font-family: "Microsoft Yahei", Tahoma, Geneva, sans-serif, "宋体";
+    font-size: 12px;
+    color: #333;
+}
+.menunavi{
+    height: auto;
+    background: #272727;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.menulist .item{
+    background-position: 3px 4px;
+    text-align: left;
+    height: auto;
+    padding-bottom: 3px;
+}
+.menulist dt{
+    display: block;
+    padding-left: 17px;
+    padding-bottom: 4px;
+    padding-top: 3px;
+}
+.menulist .cateitem {
+    display: block;
+    width: 189px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 34px;
+    overflow: hidden;
+    color: #fff;
+    outline:none;
+}
+.cateitem span {
+    background-position: 3px -32px;
+    display: block;
+    padding-right: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    font-family: "microsoft yahei",Arial;
+}
+.menulist{
+  display:none;  
+}
+.menu h3:hover +.menulist{
+    display:block;
+}
+.menulist .prvCates a {
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+    white-space: nowrap;
+    font-family: "microsoft yahei",Arial;
+    font-size: 13px;
+}
+.menu h3 a{
+    display: block;
+    height: 39px;
+    line-height: 38px;
+    color: #fff;
+    font-family: "microsoft yahei",Arial;
+    font-size: 15px;
+    font-weight: normal;
+    overflow: hidden;
+    text-decoration: none;
+}
+#menupaobu{
+    left: 210px;
+    position: absolute;
+    font-family: "Microsoft Yahei", Tahoma, Geneva, sans-serif, "宋体";
+}
+.item-box{
+    background: #fff;
+    z-index: 99;
+    position: absolute;
+    top: 39px;
+    left: -100px;
+    border: 1px #eee solid;
+    height: 345px;
+    width: 635px;
+    box-shadow: 0 0 3px #ddd;
+}
+.item-box .line-nav-ad{
+    float: left;
+    display: block;
+    margin-top: 20px;
+    padding: 0 10px 0 20px;
+    border-right: 1px solid #eee;
+}
+.item-box ul{
+    float: left;
+    padding: 20px 15px 20px 10px;
+    width: 395px;
+    list-style: none;
+}
+.item-box ul li{
+    margin-bottom: 25px;
+}
+.item-box ul li h4{
+    border-bottom: 1px #ddd dashed;
+    margin-bottom: 7px;
+    color: #b61d1d;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+.item-box ul li a{
+    color: #333;
+    margin-right: 20px;
+    line-height: 25px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.item-box ul li h4 a{
+    color: #b61d1d;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 4px;
+    text-decoration: none;
+}
+.item-box ul li a.a-red {
+    color: #d00;
+}
+#menunanzi{
+    left: 320px;
+    position: absolute;
+    font-family: "Microsoft Yahei", Tahoma, Geneva, sans-serif, "宋体";
+}
+#menunvzi{
+    position: absolute;
+    left:430px;
+}
+#menuertong{
+    position: absolute;
+    left:540px;
+}
+#menupeijian{
+    position: absolute;
+    left:650px;
+}
+#menumalasong{
+    position: absolute;
+    left:760px
+}
+.pro-box-main {
+    margin-bottom: 5px;
+    margin: 20px auto;
+    width: 1200px;
+    overflow: hidden;
+}
+.secondary-nav {
+    color: #000;
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 24px;
+    padding-bottom: 5px;
+    border-bottom: none;
+    font-size: 14px;
+    position: relative;
+    background: #f4f4f4;
+}
+.secondary-nav a, .sreach_nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+.pro-box-tophalf {
+    min-height: 580px;
+    padding: 20px;
+    background: #fff;
+}
+.pro-left {
+    width: 500px;
+    border: none;
+    float: left;
+}
+.jqzoom {
+    border: 1px solid #dfdfdf;
+    float: left;
+    position: relative;
+    padding: 0px;
+    cursor: pointer;
+}
+.jqzoom img {
+    padding-bottom: 15px;
+    border: 0;
+    vertical-align: middle;
+}
+.pro-left .thumb_list {
+    float: right;
+    width: 76px;
+    padding: 0 10px;
+}
+.thumb_list li {
+    float: none;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    padding: 1px;
+    cursor: pointer;
+}
+.thumb_list li img {
+    width: 70px;
+    height: 70px;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.herb_icon {
+    margin: 0px;
+    width: 400px;
+    overflow: auto;
+    padding-top: 8px;
+    font-size: 12px;
+}
+.herb_icon a {
+    margin-right: 16px;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+.pro-main {
+    width: 652px;
+    margin-left: 500px;
+    margin-right: 0;
+    padding: 0px 28px;
+}
+.pro-summary {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    _width: 100%;
+    font-family: "Microsoft Yahei";
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.pro-tit {
+    color: #545454;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 30px;
+    white-space: normal;
+}
+.pro-price-member {
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+    position: relative;
+}
+.getCoupons .couponBtn {
+    right: 80px;
+    position: absolute;
+    top: 15px;
+}
+.couponBtn img {
+    width: 100%;
+}
+.couponBox {
+    display: none;
+    position: absolute;
+    width: 270px;
+    top: 35px;
+    background: #fff;
+    z-index: 10;
+    margin-top: 10px;
+    border: 1px solid #bbb;
+}
+.couponList {
+    padding: 0 10px 10px;
+    max-height: 220px;
+    overflow-y: auto;
+}
+.couponList>li {
+    position: relative;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.couponBox img {
+    width: 100%;
+}
+.main-price {
+   position: relative;
+   top:30px;
+    height:42px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.pro-summary span.proTitl.member {
+    width: auto;
+    margin-left: 0;
+    color: #444444;
+    font-size: 14px;
+    line-height: 32px;
+    float: left;
+    margin-right: 10px;
+    text-align: justify;
+    text-align-last: justify
+}
+.main-price span.memberprice {
+    color: #ae1f3a;
+    font-size: 14px;
+}
+.main-price span.memberprice b {
+    color: #c40000;
+    font-size: 28px;
+}
+.code {
+    float: right;
+    margin-right: 15px;
+    position: relative;
+}
+.code>a img {
+    margin-left: 5px;
+}
+.code > span {
+    display: none;
+}
+.main_lj {
+    border-top: 1px dotted #d4d4d4;
+    border-bottom: 1px dotted #d4d4d4;
+    padding: 10px 0;
+}
+.main_lj .lj {
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    border-right: 1px solid #e5dfda;
+    color: #999;
+}
+.main_lj .lj span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #aa0108;
+}
+.sale {
+    line-height: 32px;
+    padding: 5px 0;
+}
+.pro-summary span.proTitl {
+    color: #444444;
+    font-size: 14px;
+    line-height: 32px;
+    float: left;
+    width: 64px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.item.selected {
+    border: 1px solid #c40000;
+}
+.item.selected a {
+    color: #c40000;
+}
+    
+.sale .sale_box {
+    display: inline-block;
+}
+.pro-size {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.pro-summary .pro-size .item, .pro-summary .pro-color .item {
+    padding: 2px 8px;
+    position: relative;
+}
+.item.selected {
+    border: 1px solid #c40000;
+}
+.pro-size .item {
+    float: left;
+    padding: 0 4px;
+    height: 25px;
+    border: 1px solid #ccc;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 10px;
+}
+.pro-size p.measuring {
+    float: left;
+    line-height: 30px;
+    margin-left: 9px;
+}
+.pro-summary p {
+    color: #c40000;
+    margin-top: 6px;
+    white-space: normal;
+}
+.pro-size .size-a i {
+    background: url(https://shop.xtep.com.cn/util/images/product/size_xq.png) no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    vertical-align: middle;
+}
+.item.selected a {
+    color: #c40000;
+}
+.pro-number {
+    font-size: 14px;
+    overflow: auto;
+    margin: 15px 0px 15px;
+}
+.pro-number a.number, .pro-number a.number:hover {
+    width: 35px;
+}
+a.number {
+    color: #666;
+    float: left;
+    height: 32px;
+    cursor: default;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+}
+.pro-size {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.pro-summary .pro-size .item, .pro-summary .pro-color .item {
+    padding: 2px 8px;
+    position: relative;
+}
+.item.selected {
+    border: 1px solid #c40000;
+}
+.item.selected a {
+    color: #c40000;
+}
+em, i, u {
+    font-style: normal;
+}
+.pronumber {
+    color: #666;
+    float: left;
+    width: 49px;
+    height: 30px;
+    border: 1px solid #dcdcdc;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    line-height: 30px;
+}
+.num_kc{
+    line-height: 30px;
+}
+.choose-btns {
+    margin: 15px 0px 15px 10px;
+    height: 45px;
+}
+a.addstore, a.addstore:hover {
+    font-size: 16px;
+    padding-left: 30px;
+    margin-right: 10px;
+    display: block;
+    background: #767f05;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e74649), to(#e03235));
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    width: 135px;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+a.addstore span {
+    background: url(https://shop.xtep.com.cn/util/images/newsite/shopcartbtn2.png) no-repeat left;
+    padding-left: 25px;
+}
+a.msbuy, a.msbuy:hover {
+    color: #fff;
+    border: 2px solid #000;
+    background: #000;
+    display: block;
+    float: left;
+    font-size: 16px;
+    width: 175px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.thumb_list li {
+    border: 2px solid #dfdfdf;
+}
+
+.thumb_list li.current {
+    border: 2px solid #c40000;
+    position: relative;
+}
+.jqzoom{
+    height:400px;
+    border: 1px solid #dfdfdf;
+    float: left;
+    position: relative;
+    padding: 0px;
+    cursor: pointer;
+}
+.jqZoomPup{
+    background-color:white;
+    box-shadow: 0 0 3px gray;
+    opacity: 0.4;
+    z-index: 99;
+    background-repeat: no-repeat;
+
+}
+.zoomdiv{
+    z-index:99;
+    background-repeat:no-repeat;
+}
